@@ -1,0 +1,937 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(Gilroy-SemiBold.ttf);
+}
+@font-face {
+  font-family: myBoldFont;
+  src: url(Gilroy-Bold.ttf);
+}
+@font-face {
+  font-family: myMediumFont;
+  src: url(Gilroy-medium.ttf);
+}
+
+html body {
+  background-color: white;
+}
+
+.hero-code {
+  width: 1440px;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  margin-left: 150px;
+  position: relative;
+  top: 20px;
+}
+.logo h2 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #0065fe;
+  font-family: myBoldFont;
+  margin-left: 5px;
+  position: absolute;
+  top: -3px;
+  left: 55px;
+}
+.symbol {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+.divider {
+  height: 24px;
+  border: 2px #0065fe;
+  margin-left: 5px;
+}
+nav {
+  display: flex;
+  margin-left: 400px;
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-family: myMediumFont;
+  font-size: 18px;
+}
+
+.active {
+  color: #0065fe;
+}
+
+.login {
+  margin-left: 120px;
+}
+
+.login a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.log {
+  font-size: 16px;
+  line-height: 18.75px;
+  font-family: myFont;
+}
+.try-for-free {
+  background-color: #0065fe;
+  width: 142px;
+  height: 44px;
+  padding: 12px 24px;
+  color: #fff;
+  border-radius: 100px;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 12px;
+  font-family: myFont;
+  margin-right: 100px;
+}
+header {
+  margin: 0 auto;
+}
+
+.card-1 {
+  width: 948px;
+  height: 389px;
+  margin: 0 auto;
+  margin-top: 162px;
+ /* position: absolute;
+  top: 162px;
+  left: 246px;*/
+}
+.intro {
+  width: 948px;
+  height: 200px;
+  font-size: 24px;
+  line-height: 96px;
+  font-family: myBoldFont;
+  text-align: center;
+  font-weight: 600;
+  color: #141414;
+}
+
+.sub-intro {
+  color: #005ae2;
+  position: relative;
+}
+
+.sub-intro img {
+  position: absolute;
+  left: 65px;
+  top: 50px;
+  width: 173.63px;
+  height: 19.91px;
+}
+.param {
+  width: 781px;
+  height: 105px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  font-family: myMediumFont;
+}
+.buttons {
+  width: 282px;
+  height: 44px;
+  margin: 0 auto;
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons button {
+  width: 142px;
+  height: 44px;
+  border-radius: 100px;
+  font-size: 16px;
+  line-height: 12px;
+  font-family: myFont;
+  color: #fff;
+  background-color: #0065fe;
+}
+.buttons a {
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #0065fe;
+  font-family: myFont;
+  text-decoration: none;
+}
+.card-2 {
+    width: 833px;
+    height: 336.57px;
+    position: absolute;
+    top: 640px;
+    left: 369px;
+}
+
+.descrip {
+    width: 768px;
+    height: 224px;
+    gap: 32px;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    z-index: 1000;
+}
+.cone {
+    width: 238.55px;
+    height: 251.2px;
+    position: absolute;
+    top: 10px;
+    right: 533px;
+    left: 10px
+    z-index: 20; 
+}
+
+.card-3 img {
+    width: 1440px;
+    height: 93px;
+    position: absolute;
+    top: 931px;
+}
+.card-4 img {
+    width: 1446px;
+    height: 220px;
+    position: absolute;
+    left: -3px;
+    top: 1010px;
+}
+
+.card-5 {
+    width: 1201.1px;
+    height: 504px;
+    position: absolute;
+    top: 1400px;
+    margin-left:  101px;
+    margin-right: 101px;
+    
+}
+
+.second-half {
+    width: 708px;
+    height: 504px;
+    float: right;
+    margin-top: -256px;
+    display: block;
+    
+}
+.grid-1 {
+    width: 398.1px;
+    height: 256px;
+}
+.grid-1 span {
+    color: #0065fe;
+}
+.grid-1 p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: myMediumFont;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.grid-1 h3 {
+    font-size: 40px;
+    line-height: 32px;
+    font-family: myBoldFont;
+    margin-left: 20px;
+}
+.first-para {
+    width: 340px;
+    height: 211px;
+}
+.first-para p{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+    margin-top: 10px;
+}
+.first-para h3 {
+    font-size: 32px;
+    line-height: 28px;
+    font-family: myFont;
+    margin-top: 40px;
+}
+.second-para {
+    margin-top: -2px;
+    width: 340px;
+    height: 211px;
+}
+.second-para h3 {
+    font-size: 32px;
+    line-height: 28px;
+    font-family: myFont;
+    margin-top: 40px;
+}
+
+.second-para p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+}
+.wrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper-1 {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+
+.objective {
+    width: 560px;
+    height: 108px;
+    margin-left: 440px;
+    margin-right: 440px;
+    position: absolute;
+    top: 2100px;
+}
+
+.objective h3 {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    font-family: myBoldFont;
+}
+.objective span {
+    color: #0065ef;
+}
+.objective p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-family: myMediumFont;
+}
+.final-cards {
+    width: 1088px;
+    height: 627px;
+    border: 1px ;
+    position: absolute;
+    top: 1700px;
+    margin-left: 176px;
+    margin-right: 176px;
+    position: relative;
+
+}
+.final-card-1 {
+    width: 379px;
+    height: 455px;
+    border: 1px solid gray;
+    margin-top: 86px;
+    z-index: 2;
+    border-radius: 12px;
+    position: absolute;
+    top: -1px;
+}
+
+.final-card-2 {
+    width: 410px;
+    height: 627px;
+    border: 1px solid gray;
+    z-index: 100;
+    background-color: #1E3448;
+    border-radius: 12px;
+    position: absolute;
+    top: -2px;
+    left: 339px;
+    right: 339px;
+}
+
+.final-card-3 {
+    width: 379px;
+    height: 455px;
+    border: 1px solid gray;
+    margin-top: 86px;
+    z-index: 2;
+    border-radius: 12px;
+    position: absolute;
+    top: -1px;
+    left: 710px;
+}
+.carded h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: myMediumFont;
+}
+.carded h2 {
+    font-size: 40px;
+    line-height: 48px;
+    font-family: myBoldFont;
+    margin-bottom: -10px;
+}
+.carded p {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: myMediumFont;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.carded ul {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+.free {
+    width: 250px;
+    height: 380px;
+    /*margin-left: 60px;*/
+    /*margin-top: 20px;*/
+    margin: 0 auto;
+
+}
+.carded  li {
+    font-size: 14px;
+    line-height: 50px;
+    font-family: myMediumFont;
+    list-style: none;
+    background-image: url(images/check-circle.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    background-position: 0 15px;
+}
+.carded h3 {
+    margin-left: 89.5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+.final-card-2 h3 {
+    color: white;
+    font-family: myMediumFont;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 80px;
+    margin-top: 95px;
+}
+.final-card-2 h2 {
+    color: white;
+    font-family: myBoldFont;
+    font-size: 40px;
+    line-height: 48px;
+}
+.final-card-2 p {
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+    font-family: myMediumFont;
+    margin-top: 20px;
+}
+.final-card-2 ul {
+    color: white;
+}
+
+.final-card-2 li {
+    font-size: 14px;
+    line-height: 50px;
+    font-family: myMediumFont;
+    list-style: none;
+    background-image: url(images/check-circle.png);
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    background-position: 0 15px;
+    color: white;
+}
+
+.prof {
+    width: 250px;
+    height: 360px;
+    margin: 30px auto;
+}
+.card-buttons {
+    width: 412px;
+    height: 48px;
+    position: absolute;
+    top: 700px;
+    left: 340px;
+    color: #0065fe;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.button-1 {
+    width: 200px;
+    height: 48px;
+    border: 1px solid #0065fe;
+    border-radius: 100px;
+    padding: 12px 24px;
+    background-color: white;
+    font-family: myFont;
+    color: #0065fe;
+    font-size: 16px;
+}
+.button-2 {
+    width: 200px;
+    height: 48px;
+    border: 1px solid #0065fe;
+    border-radius: 100px;
+    padding: 12px 24px;
+    background-color: #0065ef;
+    font-family: myFont;
+    color: white;
+    font-size: 16px;
+}
+.banner {
+    width: 1440px;
+    height: 523px;
+    border: 1px solid gray;
+    position: absolute;
+    left: -170px;
+    top: 850px;
+    background-color: #1e3448;
+    
+}
+ 
+.bg-image1 {
+    position: absolute;
+    top: 0px;
+}
+
+.bg-image2 {
+    position: absolute;
+    left: 510px;
+    top: -5px;
+}
+.form {
+    width: 476px;
+    height: 355px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: white;
+    margin: 84px auto;
+    
+}
+.input1 {
+    width: 392px;
+    height: 55px;
+    border-radius: 12px;
+    padding: 8px 12px;
+    color: #3284ff;
+    border: 1px solid #0065fe;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: myMediumFont;
+    margin-left: 42px;
+    margin-top: 50px;
+}
+
+::placeholder {
+    color: #3284ff;
+}
+.double-input {
+    width: 392px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 42px;
+    margin-top: 25px;
+}
+.input2 {
+    width: 202px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #0065fe;
+    padding: 8px 12px;
+}
+.drop {
+   margin-left: -60px;
+   display: flex;
+   align-items: center;
+}
+.input3 {
+    width: 178px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #0065fe;
+    padding: 8px 12px;
+}
+.form-button {
+    width: 392px;
+    height: 120px;
+    margin-left: 42px;
+    margin-top: 25px;
+}
+.form-button button {
+    width: 392px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: #0065ff;
+    color: white;
+    font-size: 14px;
+    line-height: 12px;
+    font-family: myFont;
+}
+.btt button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btt span {
+    margin-left: 10px;
+}
+.param-text {
+    width: 392px;
+    height: 60px;
+    margin-top: 8px;
+    padding: 10px;
+}
+.param-text p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: myMediumFont;
+    color: #0065fe;
+}
+.param-text span {
+    font-family: myBoldFont;
+}
+.faq-wrapper {
+    width: 792px;
+    height: 955px;
+    position: absolute;
+    top: 1420px;
+    left: 150px;
+}
+.faq-wrapper h2 {
+    width: 112.1px;
+    height: 48px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    line-height: 32px;
+    font-family: myBoldFont;
+    border: none;
+}
+.faq-inner {
+    width: 792px;
+    height: 843px;
+    margin-top: 63px;
+}
+.faq-item p {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: myMediumFont;
+    color: #141414;
+} 
+.faq-body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: myMediumFont;
+    margin-top: 20px;
+}
+.faq-minus {
+    font-size: 2em;
+    line-height: 1em;
+    width: 24px;
+    height: 24px;
+
+}
+.faq-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.faq-item {
+    margin-top: 55px;
+    margin: 26px auto;
+}
+.banner-main {
+    border: 1px solid gray;
+    width: 1440px;
+    height: 299px;
+    margin-top: 170px;
+    position: absolute;
+    left: -325px;
+    background-color: #1e3448;
+    overflow: hidden;
+
+}
+.banner2 {
+    width: 804.53px;
+    height: 596.14px;
+    position: absolute;
+    top: 10px;
+    left: 1030px;
+}
+.banner1 {
+    margin-left: -300px;
+}
+.get-started {
+    width: 806px;
+    height: 137px;
+    margin: -200px auto;
+}
+.get-started h2 {
+    width: 806px;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    font-family: myBoldFont;
+    text-align: center;
+    border: none;
+}
+.get-started button {
+    width: 200px;
+    height: 48px;
+    border-radius: 100px;
+    background-color: #0065fe;
+    color: white;
+    padding: 12px 24px;
+    margin: 39px auto;
+    font-size: 16px;
+    line-height: 12px;
+    font-family: myFont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.social-media {
+    width: 184px;
+    height: 96px;
+    position: absolute;
+    top: 1523px;
+    left: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo-wrapper {
+    width: 155px;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    position: relative;
+}
+.logo-wrapper h2 {
+    width: 99px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: myBoldFont;
+    position: absolute;
+    left: 49px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.logo-symbol {
+    width: 24px;
+    height: 24px;
+    margin-left: -2px;
+    image-color: black;
+}
+.logo-divider {
+    height: 24px;
+    border: 2px #0065fe;
+    margin-left: 7px;
+    background: black;
+}
+
+
+.sites {
+    width: 184px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    width: 812px;
+    height: 384px;
+    margin-top: 570px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+.column-1 {
+    width: 180px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-1-wrapper-1 {
+    width: 179px;
+    height: 104px;
+    padding: 0 24px;
+}
+.h4-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myBoldFont;
+}
+.column-1-para-1 {
+    width: 134px;
+    height: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+    margin-top: 10px;
+}
+
+.column-1-wrapper-2 {
+    width: 180px;
+    height: 224px;
+    padding: 0 24px;
+}
+
+.column-1-para-2 {
+    width: 132px;
+    height: 192px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+    margin-top: 11px;
+}
+.column-2 {
+    width: 201px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-2-wrapper-1 {
+    width: 177px;
+    height: 128px;
+    padding: 0 13px;
+}
+.h4-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myBoldFont;
+}
+.column-2-para-1 {
+    width: 129px;
+    height: 96px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+    margin-top: 10px;
+}
+
+.column-2-wrapper-2 {
+    width: 201px;
+    height: 176px;
+    padding: 0 24px;
+}
+
+.column-2-para-2 {
+    width: 132px;
+    height: 192px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+    margin-top: 11px;
+}
+.column-3 {
+    width: 211px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-3-wrapper-1 {
+    width: 181px;
+    height: 104px;
+    padding: 0 9px;
+}
+.h4-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myBoldFont;
+}
+.column-3-para-1 {
+    width: fit-content;
+    height: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+    margin-top: 10px;
+}
+
+.column-3-wrapper-2 {
+    width: 211px;
+    height: 152px;
+    padding: 0 24px 0 24px;
+}
+
+.column-3-para-2 {
+    width: 163px;
+    height: 120px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+    margin-top: 11px;
+}
+.column-4 {
+    width: 148px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.column-4-wrapper-1 {
+    width: 100px;
+    height: 144px;
+}
+.h4-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myBoldFont;
+}
+.column-4-para-1 {
+    width: 100px;
+    height: 144px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: myMediumFont;
+    margin-top: 10px;
+}
+.footer-nav {
+    position: absolute;
+    right: -150px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: myMediumFont;
+}
+.footer-nav a {
+    text-decoration: none;
+    padding: 0 12px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
