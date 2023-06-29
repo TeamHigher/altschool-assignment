@@ -116,7 +116,6 @@ header {
   line-height: 96px;
   font-family: myBoldFont;
   text-align: center;
-  font-weight: ;
   color: #141414;
 }
 
@@ -439,7 +438,7 @@ header {
     line-height: 50px;
     font-family: myMediumFont;
     list-style: none;
-    background-image: url(images/check-circle.png);
+    background-image: url(images/check-circle-2.png);
     background-repeat: no-repeat;
     padding-left: 28px;
     background-position: 0 15px;
