@@ -22,7 +22,6 @@ html body {
 }
 
 .hero-code {
-  width: 1440px;
   height: 100%;
   background-color: #fff;
   position: relative;
@@ -110,7 +109,6 @@ header {
 }
 
 .intro {
-  width: 948px;
   height: 200px;
   font-size: 24px;
   line-height: 96px;
