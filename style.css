@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-wrap: break-word;
 }
 
 @font-face {
@@ -19,6 +20,7 @@
 
 html body {
   background-color: white;
+  overflow-x: hidden;
 }
 
 .hero-code {
