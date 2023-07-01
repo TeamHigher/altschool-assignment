@@ -101,7 +101,6 @@ header {
 }
 
 .card-1 {
-  width: 948px;
   height: 389px;
   margin: 0 auto;
   margin-top: 162px;
@@ -109,6 +108,7 @@ header {
   top: 162px;
   left: 246px;*/
 }
+
 .intro {
   width: 948px;
   height: 200px;
@@ -117,6 +117,7 @@ header {
   font-family: myBoldFont;
   text-align: center;
   color: #141414;
+  margin: 0 auto;
 }
 
 .sub-intro {
